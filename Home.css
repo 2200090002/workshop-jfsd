@@ -1,0 +1,51 @@
+/* src/components/Home.css */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .text-section {
+    max-width: 600px; /* Adjust based on your design */
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  .explore-button {
+    padding: 15px 30px; /* More padding for the button */
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff; /* Primary button color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s; /* Add hover effect */
+  }
+  
+  .explore-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .image-section {
+    flex-grow: 1;
+    text-align: right;
+  }
+  
+  .hero-image {
+    max-width: 400px; /* Adjust as needed */
+    border-radius: 10px; /* Optional: Rounded corners for the image */
+  }
+  

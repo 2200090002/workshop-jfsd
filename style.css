@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Home Section */
+  .home-section {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .home-section h2 {
+    font-size: 2.5em;
+  }
+  
+  .home-section p {
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  .home-section button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .home-section button:hover {
+    background-color: #555;
+  }
+  
+  /* Workshops Section */
+  .workshops-section {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .workshops-section h2 {
+    font-size: 2em;
+  }
+  
+  .workshops-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .workshops-section ul li {
+    margin: 10px 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
